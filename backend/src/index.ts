@@ -15,6 +15,7 @@ const commonTypeDefs = gql`
 
   type Review {
     id: ID!
+    productId: ID!
     name: String!
     rating: Int!
     text: String
@@ -38,17 +39,17 @@ const commonTypeDefs = gql`
 // A map of functions which return data for the schema.
 const commonResolvers: Resolvers = {
   Review: {
-    id: (root) => root.id,
-    name: (root) => root.name,
-    rating: (root) => root.rating,
+    // id: (root) => root.id,
+    // name: (root) => root.name,
+    // rating: (root) => root.rating,
     text: (root) => root.text ?? null,
   },
   Product: {
-    id: (root) => root.id,
-    name: (root) => root.name,
-    description: (root) => root.description,
-    categories: (root) => root.categories,
-    reviews: (root) => root.reviews,
+    // id: (root) => root.id,
+    // name: (root) => root.name,
+    // description: (root) => root.description,
+    // categories: (root) => root.categories,
+    reviews: (root) => DAL.getReviewsForProduct(root.id),
   },
   Query: {
     hello: () => "world!",

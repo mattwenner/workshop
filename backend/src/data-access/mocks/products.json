@@ -3,38 +3,18 @@
     "id": "1091145b-d6a8-478e-ae05-ea7b91df2e45",
     "name": "Domenica Nicolas",
     "description": "omnis qui commodi",
-    "categories": [],
-    "reviews": []
+    "categories": []
   },
   {
     "id": "f79e0a4f-c0cd-4c48-9052-a1b380aa8ee3",
     "name": "Barrett Wyman",
     "description": "Natus est qui laboriosam aut expedita.\nTemporibus quibusdam dolor id voluptatem est.\nVoluptate quasi cumque.",
-    "categories": ["GAMING"],
-    "reviews": [{
-      "id": "10f3eb56-a4a6-4e34-b4c2-7f58d9b76e8b",
-      "name": "Review1",
-      "rating": 5,
-      "text": "Best ever!!"
-    }]
+    "categories": ["GAMING"]
   },
   {
     "id": "c442633d-d9f3-43da-8816-dc87dcc26183",
     "name": "Leonel Vandervort",
     "description": "optio est similique",
-    "categories": ["OUTDOORS", "EXERCISE"],
-    "reviews": [
-      {
-        "id": "1eb3b4f9-269b-492d-b5ea-8dc9db2a8a69",
-        "name": "Review2",
-        "rating": 5,
-        "text": null
-      },
-      {
-        "id": "4e82867e-b998-4d1a-b25b-9c1a5fb98e98",
-        "name": "Review3",
-        "rating": 5
-      }
-    ]
+    "categories": ["OUTDOORS", "EXERCISE"]
   }
 ]

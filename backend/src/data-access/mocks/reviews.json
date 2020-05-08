@@ -1,0 +1,22 @@
+[
+    {
+        "id": "10f3eb56-a4a6-4e34-b4c2-7f58d9b76e8b",
+        "productId": "f79e0a4f-c0cd-4c48-9052-a1b380aa8ee3", 
+        "name": "Review1",
+        "rating": 5,
+        "text": "Best ever!!"
+    },
+    {
+        "id": "1eb3b4f9-269b-492d-b5ea-8dc9db2a8a69",
+        "productId": "c442633d-d9f3-43da-8816-dc87dcc26183",
+        "name": "Review2",
+        "rating": 5,
+        "text": null
+    },
+    {
+        "id": "4e82867e-b998-4d1a-b25b-9c1a5fb98e98",
+        "productId": "c442633d-d9f3-43da-8816-dc87dcc26183",
+        "name": "Review3",
+        "rating": 5
+    }
+]
