@@ -41,7 +41,7 @@ const commonResolvers: Resolvers = {
     id: (root) => root.id,
     name: (root) => root.name,
     rating: (root) => root.rating,
-    text: (root) => (root.text == undefined ? null : root.text),
+    text: (root) => root.text ?? null,
   },
   Product: {
     id: (root) => root.id,
